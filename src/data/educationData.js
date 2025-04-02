@@ -1,17 +1,17 @@
 export const educationData = [
     {
         id: 1,
-        institution: 'Marble Hills Middle School',
+        institution: 'Aquinas College Akure',
         course: 'Higher Secondary Education',
         startYear: '2007',
-        endYear: '2015'
+        endYear: '2013'
     },
     {
         id: 2,
-        institution: 'Somerset School of Science',
+        institution: 'Bayero University Kano',
         course: 'Bachelor of Technology',
-        startYear: '2015',
-        endYear: '2019'
+        startYear: '2018',
+        endYear: '2024'
     },
     {
         id: 3,
