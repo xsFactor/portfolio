@@ -1,6 +1,5 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Habeeb. I'm a Cyber Intelligence Analyst and Offensive security based in Abuja, Nigeria.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "My name's Habeeb. I'm a Cybersecurity Instructor, Offensive Security Analyst, and Consultant based in Nigeria. I specialize in penetration testing, phishing simulation, and red teaming, delivering contract-based offensive security services to SMEs. I also design and lead Security Awareness Training (SAT) programs tailored to different organizational needs. As an instructor, I train aspiring professionals through hands-on labs and real-world projects in VAPT, OSINT, and digital forensics. I regularly consult for NGOs and private firms, using OSINT to uncover critical insights and support investigations. I'm passionate about offensive security, cyber education, and building scalable security solutions for businesses and communities alike.",
     image: 2
 }
