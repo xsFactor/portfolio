@@ -17,7 +17,7 @@ export const educationData = [
         id: 3,
         institution: 'In View',
         course: 'Master of Cybercrime and Forensic Analyst',
-        startYear: 'Inview',
-        #endYear: 'Present'
+        startYear: 'In',
+        endYear: 'View'
     },
 ]
