@@ -15,9 +15,9 @@ export const educationData = [
     },
     {
         id: 3,
-        institution: 'Hawking University, Cambridge',
-        course: 'Master of Technology',
-        startYear: '2019',
-        endYear: 'Present'
+        institution: 'In View',
+        course: 'Master of Cybercrime and Forensic Analyst',
+        startYear: 'Inview',
+        #endYear: 'Present'
     },
 ]
