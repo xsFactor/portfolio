@@ -36,8 +36,8 @@ export const blogData = [
         title: 'GET MICHAEL\'S OR TREVOR\'S VEHICLES FULLY UPGRADED IN GTA V FOR FREE',
         description: 'In case you haven\'t heard of this game, GTA stands for \'Grand Theft Auto\'. It is an open-world game published by Rockstar Games.',
         date: 'Oct 1, 2020',
-        image: 'https://1.bp.blogspot.com/-jhdtUBIRD_s/XxLFKQuRz9I/AAAAAAAABsM/mClfbfDFKvsUwA7Wyi25Lzu3DEmL2lxrACNcBGAsYHQ/s1919/gta.jpg',
-        url: 'https://hackzism.blogspot.com/2020/07/how-can-you-get-michaels-or-trevors.html'
+        image: 'https://knilt.arcc.albany.edu/File:AS_Googlesearch.jpg',
+        url: 'https://f4ct0r.notion.site/Search-Engine-OSINT-e97df8e0d7544fc0886ec13e745bd66b'
     },
 ]
 
