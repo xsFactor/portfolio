@@ -1,8 +1,168 @@
-<svg width="256" height="290" viewBox="0 0 256 290" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M255.11 0L231.868 260.36L127.399 289.322L23.2165 260.401L0 0H255.11Z" fill="#E44D26"/>
-<path d="M127.555 267.184L211.971 243.78L231.832 21.291H127.555V267.184Z" fill="#F16529"/>
-<path d="M82.3759 85.1659H127.556V53.2285H47.4727L48.2371 61.7968L56.0866 149.807H127.556V117.87H85.2945L82.3759 85.1659Z" fill="#EBEBEB"/>
-<path d="M89.5735 165.776H57.5137L61.988 215.922L127.409 234.083L127.556 234.043V200.815L127.416 200.852L91.8472 191.248L89.5735 165.776Z" fill="#EBEBEB"/>
-<path d="M127.445 149.808H166.772L163.065 191.228L127.445 200.842V234.068L192.918 215.923L193.398 210.527L200.903 126.447L201.683 117.871H127.445V149.808Z" fill="white"/>
-<path d="M127.445 85.0879V85.1659H204.589L205.229 77.9874L206.684 61.7968L207.448 53.2285H127.445V85.0879Z" fill="white"/>
+<!-- === SVG SPRITE (paste once) === -->
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden;">
+  <!-- Core Cybersecurity Skills -->
+  <symbol id="icon-offsec" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Shield -->
+    <path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/>
+    <!-- Lightning -->
+    <path d="M13 7l-4 6h3l-1 5l4-6h-3"/>
+  </symbol>
+
+  <symbol id="icon-vapt" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Bug -->
+    <circle cx="10" cy="10" r="3"/>
+    <path d="M10 5v2M10 13v2M6.5 8.5l-2-2M13.5 8.5l2-2M6.5 11.5l-2 2M13.5 11.5l2 2"/>
+    <!-- Magnifier -->
+    <circle cx="17.5" cy="17.5" r="3"/>
+    <path d="M19.7 19.7L21 21"/>
+  </symbol>
+
+  <symbol id="icon-phishing" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Hook -->
+    <path d="M7 3v7a4 4 0 0 0 8 0v-1"/>
+    <!-- Envelope on hook -->
+    <rect x="13" y="4.5" width="8" height="6" rx="1"/>
+    <path d="M13 4.5l4 3l4-3"/>
+  </symbol>
+
+  <symbol id="icon-cti" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Network nodes -->
+    <circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/>
+    <path d="M8.3 7.3L10 10m5.7-2.7L14 10M12 15.5V13"/>
+  </symbol>
+
+  <symbol id="icon-osint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Globe -->
+    <circle cx="10" cy="10" r="6"/>
+    <path d="M4 10h12M10 4a12 12 0 0 0 0 12M10 4a12 12 0 0 1 0 12"/>
+    <!-- Magnifier -->
+    <circle cx="18" cy="18" r="3"/><path d="M20 20l1 1"/>
+  </symbol>
+
+  <symbol id="icon-dfir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Laptop -->
+    <rect x="3.5" y="6" width="17" height="9" rx="1"/>
+    <path d="M2 17h20"/>
+    <!-- Forensic glass -->
+    <circle cx="16" cy="10.5" r="2"/><path d="M17.4 11.9l1.6 1.6"/>
+  </symbol>
+
+  <!-- Tools & Frameworks -->
+  <symbol id="icon-metasploit" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="3" y="4" width="18" height="14" rx="2"/>
+    <path d="M7 10l2 2l-2 2M11 14h3"/>
+  </symbol>
+
+  <symbol id="icon-burp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Traffic funnel (intercept) -->
+    <path d="M3 5h18l-7 7v5l-4 2v-7L3 5z"/>
+  </symbol>
+
+  <symbol id="icon-nmap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="7"/>
+    <path d="M12 12l6-4"/><circle cx="18" cy="8" r="1"/><circle cx="12" cy="12" r="3"/>
+  </symbol>
+
+  <symbol id="icon-wireshark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 17c4-3 7-6 11-9"/><path d="M3 17h18"/>
+  </symbol>
+
+  <symbol id="icon-splunk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 16v-6M12 16V8M18 16v-3"/>
+    <rect x="3" y="4" width="18" height="16" rx="2"/>
+  </symbol>
+
+  <symbol id="icon-elk" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="4" y="5" width="16" height="4" rx="1"/>
+    <rect x="4" y="10" width="16" height="4" rx="1"/>
+    <rect x="4" y="15" width="16" height="4" rx="1"/>
+  </symbol>
+
+  <symbol id="icon-maltego" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="2.5"/>
+    <circle cx="5" cy="7" r="2"/><circle cx="19" cy="7" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="18" r="2"/>
+    <path d="M7 8l3 3M17 8l-3 3M7 17l3-3M17 17l-3-3"/>
+  </symbol>
+
+  <symbol id="icon-shodan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="7"/>
+    <circle cx="12" cy="12" r="2.5"/>
+    <path d="M12 5v2M12 17v2M5 12h2M17 12h2"/>
+  </symbol>
+
+  <symbol id="icon-reconng" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Binoculars -->
+    <circle cx="8.5" cy="12" r="3"/><circle cx="15.5" cy="12" r="3"/>
+    <path d="M11.5 11.5h1M6 9l2-3M18 9l-2-3"/>
+  </symbol>
+
+  <symbol id="icon-kali" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Terminal with shield vibe -->
+    <rect x="3" y="5" width="18" height="12" rx="2"/>
+    <path d="M7 10l2 2l-2 2M12 14h4"/>
+  </symbol>
+
+  <symbol id="icon-parrot" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Feather -->
+    <path d="M5 19c7-1 11-6 12-12c-4 2-8 6-10 9l6-1M17 7l2-2"/>
+  </symbol>
+
+  <symbol id="icon-mitre" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Matrix grid -->
+    <rect x="4" y="5" width="16" height="14" rx="2"/>
+    <path d="M10 5v14M14 5v14M4 10h16M4 14h16"/>
+  </symbol>
+
+  <!-- Training & Consulting -->
+  <symbol id="icon-sat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Megaphone -->
+    <path d="M14 7l6-2v10l-6-2z"/>
+    <path d="M14 12H8a3 3 0 0 0 0 6h1"/>
+  </symbol>
+
+  <symbol id="icon-labs" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Beaker -->
+    <path d="M9 3v5l-4 8a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-4-8V3"/>
+    <path d="M8 12h8M9 8h6"/>
+  </symbol>
+
+  <symbol id="icon-curriculum" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Open book -->
+    <path d="M12 6v12"/>
+    <path d="M12 6c-2-1-6-1-8 1v10c2-2 6-2 8-1"/>
+    <path d="M12 6c2-1 6-1 8 1v10c-2-2-6-2-8-1"/>
+  </symbol>
 </svg>
+
+<!-- === Example usage === -->
+<style>
+  .icon { width: 24px; height: 24px; vertical-align: -4px; }
+  .skill { display:flex; align-items:center; gap:.5rem; margin:.25rem 0; }
+  .skill-list { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:.5rem 1rem; }
+</style>
+
+<div class="skill-list">
+  <div class="skill"><svg class="icon"><use href="#icon-offsec"/></svg> Offensive Security (Red Team)</div>
+  <div class="skill"><svg class="icon"><use href="#icon-vapt"/></svg> VAPT</div>
+  <div class="skill"><svg class="icon"><use href="#icon-phishing"/></svg> Phishing Simulation</div>
+  <div class="skill"><svg class="icon"><use href="#icon-cti"/></svg> Cyber Threat Intelligence</div>
+  <div class="skill"><svg class="icon"><use href="#icon-osint"/></svg> OSINT Investigations</div>
+  <div class="skill"><svg class="icon"><use href="#icon-dfir"/></svg> Digital Forensics & IR</div>
+
+  <div class="skill"><svg class="icon"><use href="#icon-metasploit"/></svg> Metasploit / Terminal</div>
+  <div class="skill"><svg class="icon"><use href="#icon-burp"/></svg> Web Proxy / Intercept</div>
+  <div class="skill"><svg class="icon"><use href="#icon-nmap"/></svg> Nmap / Scanning</div>
+  <div class="skill"><svg class="icon"><use href="#icon-wireshark"/></svg> Packet Analysis</div>
+  <div class="skill"><svg class="icon"><use href="#icon-splunk"/></svg> SIEM (Splunk)</div>
+  <div class="skill"><svg class="icon"><use href="#icon-elk"/></svg> ELK Stack</div>
+  <div class="skill"><svg class="icon"><use href="#icon-maltego"/></svg> Maltego / Link Analysis</div>
+  <div class="skill"><svg class="icon"><use href="#icon-shodan"/></svg> Shodan</div>
+  <div class="skill"><svg class="icon"><use href="#icon-reconng"/></svg> Recon-ng</div>
+  <div class="skill"><svg class="icon"><use href="#icon-kali"/></svg> Kali Linux</div>
+  <div class="skill"><svg class="icon"><use href="#icon-parrot"/></svg> Parrot OS</div>
+  <div class="skill"><svg class="icon"><use href="#icon-mitre"/></svg> MITRE ATT&CK</div>
+
+  <div class="skill"><svg class="icon"><use href="#icon-sat"/></svg> SAT Design & Delivery</div>
+  <div class="skill"><svg class="icon"><use href="#icon-labs"/></svg> Hands-on Lab Development</div>
+  <div class="skill"><svg class="icon"><use href="#icon-curriculum"/></svg> Curriculum & Mentorship</div>
+</div>
