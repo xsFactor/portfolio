@@ -9,14 +9,14 @@ export const educationData = [
     {
         id: 2,
         institution: 'Bayero University Kano',
-        course: 'Bachelor of Technology',
+        course: 'Bachelor of Science',
         startYear: '2018',
         endYear: '2024'
     },
     {
         id: 3,
         institution: 'In View',
-        course: 'Master of Cybercrime and Forensic Analyst',
+        course: 'MSc Cyber Security',
         startYear: 'In',
         endYear: 'View'
     },
