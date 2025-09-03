@@ -1,8 +1,8 @@
  export const skillsData = [
-    'HTML',
+    'Disinformaion',
     'Fastify',
     'Blender',
-    'Figma',
+    'OffSec',
     'Javascript',
     'CSS',
     'React',
